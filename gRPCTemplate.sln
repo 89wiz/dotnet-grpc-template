@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCTemplate.gRPC", "gRPCTemplate.gRPC\gRPCTemplate.gRPC.csproj", "{45616D8C-C356-424E-BC9B-F9B4D925B6F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Api", "1. Api", "{6245ED50-F704-4BE1-ADDE-E1AD3A41DBF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{6E1D0ACE-C1F4-47CD-844D-602FE8FD0A51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{0B28FC05-CA70-4D7B-8C07-6E6046B613EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infra", "4. Infra", "{5ADBF048-8C8C-4F02-856F-22951C9C3C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45616D8C-C356-424E-BC9B-F9B4D925B6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45616D8C-C356-424E-BC9B-F9B4D925B6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45616D8C-C356-424E-BC9B-F9B4D925B6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45616D8C-C356-424E-BC9B-F9B4D925B6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45616D8C-C356-424E-BC9B-F9B4D925B6F4} = {6245ED50-F704-4BE1-ADDE-E1AD3A41DBF4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {318F0306-85D2-47CB-86BB-77F24225E686}
+	EndGlobalSection
+EndGlobal

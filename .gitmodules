@@ -1,0 +1,3 @@
+[submodule "gRPCTemplate.gRPC/Proto"]
+	path = gRPCTemplate.gRPC/Proto
+	url = https://github.com/89wiz/grpc-chat-proto.git
