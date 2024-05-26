@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
@@ -7,8 +7,24 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Protobuf Include="Protos\auth.proto" GrpcServices="Server" />
-		<Protobuf Include="Protos\chat.proto" GrpcServices="Server" />
+		<PackageReference Include="Grpc.AspNetCore" Version="2.63.0" />
+		<PackageReference Include="Grpc.AspNetCore.Server.Reflection" Version="2.63.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\gRPCTemplate.IoC\gRPCTemplate.IoC.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Protobuf Include="Proto\shared.proto" GrpcServices="Server" />
+		<Protobuf Include="Proto\auth.proto" GrpcServices="Server" />
+		<Protobuf Include="Proto\chat.proto" GrpcServices="Server" />
 	</ItemGroup>
 
 </Project>
